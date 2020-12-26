@@ -1,5 +1,4 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { logout } from '../actions/auth';
 import {
 	REGISTER_SUCCESS,
 	REGISTER_FAIL,
