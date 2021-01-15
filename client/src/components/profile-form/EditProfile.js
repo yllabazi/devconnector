@@ -32,7 +32,7 @@ const EditProfile = ({
 			company: loading || !profile.company ? '' : profile.company,
 			website: loading || !profile.website ? '' : profile.website,
 			location: loading || !profile.location ? '' : profile.location,
-			status: loading || !profile.status ? '' : profile.company,
+			status: loading || !profile.status ? '' : profile.status,
 			skills: loading || !profile.skills ? '' : profile.skills.join(','),
 			githubusername:
 				loading || !profile.githubusername ? '' : profile.githubusername,
@@ -68,7 +68,7 @@ const EditProfile = ({
 	};
 	return (
 		<Fragment>
-			<h1 className="larg text-primary">Create Your Profile</h1>
+			<h1 className="larg text-primary">Edit Your Profile</h1>
 			<p className="lead">
 				<i className="fas fa-user"></i> Let's get some information to make your
 				profile stand out
